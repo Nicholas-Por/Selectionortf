@@ -27,5 +27,10 @@ public class Main {
 
         }
     }
-
+    public static void swap(int[] arr, int i, int min)
+    {
+        int temp = i;
+        arr[i] = min;
+        min = temp;
+    }
 }
